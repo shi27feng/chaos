@@ -1,0 +1,5 @@
+/home/feng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/feng/workspace/chaos
+-- Configuring done
+WARNING: Target "chaos" requests linking to directory "/opt/rocm/opencl/lib/x86_64".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/feng/workspace/chaos/cmake-build-debug
