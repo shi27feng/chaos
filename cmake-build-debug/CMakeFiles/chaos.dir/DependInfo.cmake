@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/feng/workspace/chaos/test.cpp" "/home/feng/workspace/chaos/cmake-build-debug/CMakeFiles/chaos.dir/test.cpp.o"
+  "D:/workspace/chaos/test.cpp" "D:/workspace/chaos/cmake-build-debug/CMakeFiles/chaos.dir/test.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/rocm/opencl/include"
+  "C:/Program Files (x86)/AMD APP SDK/3.0/include"
   )
 
 # Targets to which this target links.

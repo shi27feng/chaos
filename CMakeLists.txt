@@ -1,9 +1,9 @@
 cmake_minimum_required( VERSION 3.8 )
 project( chaos )
 
-SET( ROCMROOT           /opt/rocm/opencl )
-SET( OPENCL_LIBRARY     /opt/rocm/opencl/lib/x86_64 )
-SET( OPENCL_INCLUDE_DIR /opt/rocm/opencl/include )
+# SET( ROCMROOT           /opt/rocm/opencl )
+# SET( OPENCL_LIBRARY     /opt/rocm/opencl/lib/x86_64 )
+# SET( OPENCL_INCLUDE_DIR /opt/rocm/opencl/include )
 
 SET( CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake )
 

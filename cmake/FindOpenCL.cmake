@@ -3,6 +3,7 @@ FIND_PATH( OPENCL_INCLUDE_DIR
             CL/cl.h CL/cl.hpp OpenCL/cl.h
         PATHS
             $ENV{ROCMROOT}/include
+            $ENV{AMDAPPSDKROOT}/include
             $ENV{INTELOCLSDKROOT}/include
             $ENV{NVSDKCOMPUTE_ROOT}/OpenCL/common/inc
             # Legacy Stream SDK
@@ -11,6 +12,7 @@ IF( CMAKE_SIZEOF_VOID_P EQUAL 4 )
     SET( OPENCL_LIB_SEARCH_PATH
             ${OPENCL_LIB_SEARCH_PATH}
             $ENV{ROCMROOT}/lib/x86
+            $ENV{AMDAPPSDKROOT}/lib/x86
             $ENV{INTELOCLSDKROOT}/lib/x86_
             $ENV{NVSDKCOMPUTE_ROOT}/OpenCL/common/lib/Win32
             # Legacy Stream SDK
@@ -19,6 +21,7 @@ ELSEIF( CMAKE_SIZEOF_VOID_P EQUAL 8 )
     SET( OPENCL_LIB_SEARCH_PATH
             ${OPENCL_LIB_SEARCH_PATH}
             $ENV{ROCMROOT}/lib/x86_64
+            $ENV{AMDAPPSDKROOT}/lib/x86_64
             $ENV{INTELOCLSDKROOT}/lib/x64
             $ENV{NVSDKCOMPUTE_ROOT}/OpenCL/common/lib/x64
             # Legacy stream SDK
