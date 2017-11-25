@@ -1,5 +1,6 @@
 //
 // Created by Feng on 11/18/17.
+// a small program for testing OpenCL has been setup correctly
 //
 
 #include <iostream>
