@@ -5,7 +5,7 @@ project(chaos)
 
 if("${CMAKE_SYSTEM_NAME}" MATCHES "Linux")
     SET(ROCMROOT /opt/rocm/opencl)
-    SET(OpenCL_LIBRARY /opt/rocm/opencl/lib/x86_64)
+    SET(OpenCL_LIBRARY /opt/rocm/opencl/lib/x86_64/libOpenCL.so)
     SET(OpenCL_INCLUDE_DIR /opt/rocm/opencl/include)
 endif()
 
