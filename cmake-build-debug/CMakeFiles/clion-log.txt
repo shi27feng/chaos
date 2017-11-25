@@ -1,5 +1,0 @@
-C:\Users\shi.feng\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\workspace\chaos
--- Found OpenCL: C:/Program Files (x86)/AMD APP SDK/3.0/lib/x86/OpenCL.lib  
--- Configuring done
--- Generating done
--- Build files have been written to: D:/workspace/chaos/cmake-build-debug
