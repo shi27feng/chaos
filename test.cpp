@@ -87,9 +87,13 @@ int main() {
     queue.enqueueReadBuffer(buffer_C, CL_TRUE, 0, sizeof(int) * 10, C);
 
     std::cout << " result: \n";
-    for (int i = 0; i < 10; i++) {
-        std::cout << C[i] << " ";
+    for (int i : C) {
+        std::cout << i << " ";
     }
+
+//    for (int i = 0; i < 10; i++) {
+//        std::cout << C[i] << " ";
+//    }
 
     return 0;
 }
